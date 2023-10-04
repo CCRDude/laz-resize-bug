@@ -21,17 +21,7 @@ type
    TFramePrivacyPrompt = class(TFrame)
       bnGiftingSearchTerm: TButton;
       bnGuardian: TButton;
-      bnInvestigatorPlaces: TButton;
       bnGiftingPurgeTerm: TButton;
-      bnDataBreachIM: TButton;
-      bnTrackingSitesSearch: TButton;
-      bnTrackingAB: TButton;
-      bnInvestigatorCryptoCurrency: TButton;
-      labelInvestigatorText: TLabel;
-      labelDataBreachTitle: TLabel;
-      labelDataBreachText: TLabel;
-      labelTrackingTitle: TLabel;
-      labelTrackingText: TLabel;
       labelGiftingHeader: TLabel;
       labelGiftingText: TLabel;
       Label2: TLabel;
@@ -40,11 +30,7 @@ type
       Label5: TLabel;
       labelGuardianTitle: TLabel;
       labelGuardianText: TLabel;
-      labelInvestigatorTitle: TLabel;
       panelGuardian: TPanel;
-      panelInvestigator: TPanel;
-      panelDataBreach: TPanel;
-      panelTracking: TPanel;
       panelGifting: TPanel;
       ScrollBox1: TScrollBox;
    private

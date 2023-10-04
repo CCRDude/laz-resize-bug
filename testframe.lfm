@@ -16,8 +16,8 @@ object FramePrivacyPrompt: TFramePrivacyPrompt
     HorzScrollBar.Increment = 1
     HorzScrollBar.Page = 1
     HorzScrollBar.Visible = False
-    VertScrollBar.Increment = 74
-    VertScrollBar.Page = 741
+    VertScrollBar.Increment = 35
+    VertScrollBar.Page = 355
     VertScrollBar.Smooth = True
     VertScrollBar.Tracking = True
     Align = alClient
@@ -80,187 +80,6 @@ object FramePrivacyPrompt: TFramePrivacyPrompt
         TabOrder = 0
       end
     end
-    object panelInvestigator: TPanel
-      Left = 8
-      Height = 131
-      Top = 481
-      Width = 880
-      Align = alTop
-      AutoSize = True
-      BorderSpacing.Around = 8
-      BevelOuter = bvNone
-      BorderStyle = bsSingle
-      ChildSizing.LeftRightSpacing = 6
-      ChildSizing.TopBottomSpacing = 6
-      ChildSizing.HorizontalSpacing = 6
-      ChildSizing.VerticalSpacing = 6
-      ClientHeight = 127
-      ClientWidth = 876
-      ParentBackground = False
-      TabOrder = 1
-      object labelInvestigatorTitle: TLabel
-        Left = 60
-        Height = 30
-        Top = 6
-        Width = 810
-        Align = alTop
-        BorderSpacing.Left = 60
-        Caption = 'oooo'
-        Font.Height = -21
-        ParentFont = False
-      end
-      object labelInvestigatorText: TLabel
-        Left = 60
-        Height = 17
-        Top = 42
-        Width = 810
-        Align = alTop
-        BorderSpacing.Left = 60
-        Caption = 'pppp'
-        Font.Height = -13
-        ParentFont = False
-        WordWrap = True
-      end
-      object bnInvestigatorPlaces: TButton
-        Left = 60
-        Height = 25
-        Top = 65
-        Width = 400
-        Align = alTop
-        BorderSpacing.Left = 60
-        Caption = 'qqqq'
-        Constraints.MaxWidth = 400
-        TabOrder = 0
-      end
-      object bnInvestigatorCryptoCurrency: TButton
-        Left = 60
-        Height = 25
-        Top = 96
-        Width = 400
-        Align = alTop
-        BorderSpacing.Left = 60
-        Caption = 'rrrr'
-        Constraints.MaxWidth = 400
-        TabOrder = 1
-      end
-    end
-    object panelDataBreach: TPanel
-      Left = 8
-      Height = 100
-      Top = 373
-      Width = 880
-      Align = alTop
-      AutoSize = True
-      BorderSpacing.Around = 8
-      BevelOuter = bvNone
-      BorderStyle = bsSingle
-      ChildSizing.LeftRightSpacing = 6
-      ChildSizing.TopBottomSpacing = 6
-      ChildSizing.HorizontalSpacing = 6
-      ChildSizing.VerticalSpacing = 6
-      ClientHeight = 96
-      ClientWidth = 876
-      ParentBackground = False
-      TabOrder = 2
-      object labelDataBreachTitle: TLabel
-        Left = 60
-        Height = 30
-        Top = 6
-        Width = 810
-        Align = alTop
-        BorderSpacing.Left = 60
-        Caption = 'lll'
-        Font.Height = -21
-        ParentFont = False
-      end
-      object labelDataBreachText: TLabel
-        Left = 60
-        Height = 17
-        Top = 42
-        Width = 810
-        Align = alTop
-        BorderSpacing.Left = 60
-        Caption = 'mmmm'
-        Font.Height = -13
-        ParentFont = False
-        WordWrap = True
-      end
-      object bnDataBreachIM: TButton
-        Left = 60
-        Height = 25
-        Top = 65
-        Width = 400
-        Align = alTop
-        BorderSpacing.Left = 60
-        Caption = 'nnnn'
-        Constraints.MaxWidth = 400
-        TabOrder = 0
-      end
-    end
-    object panelTracking: TPanel
-      Left = 8
-      Height = 131
-      Top = 620
-      Width = 880
-      Align = alTop
-      AutoSize = True
-      BorderSpacing.Around = 8
-      BevelOuter = bvNone
-      BorderStyle = bsSingle
-      ChildSizing.LeftRightSpacing = 6
-      ChildSizing.TopBottomSpacing = 6
-      ChildSizing.HorizontalSpacing = 6
-      ChildSizing.VerticalSpacing = 6
-      ClientHeight = 127
-      ClientWidth = 876
-      ParentBackground = False
-      TabOrder = 3
-      object labelTrackingTitle: TLabel
-        Left = 60
-        Height = 30
-        Top = 6
-        Width = 810
-        Align = alTop
-        BorderSpacing.Left = 60
-        Caption = 'sss'
-        Font.Height = -21
-        ParentFont = False
-      end
-      object labelTrackingText: TLabel
-        Left = 60
-        Height = 17
-        Top = 42
-        Width = 810
-        Align = alTop
-        BorderSpacing.Left = 60
-        Caption = 'tttt'
-        Font.Height = -13
-        ParentFont = False
-        WordWrap = True
-      end
-      object bnTrackingSitesSearch: TButton
-        Left = 60
-        Height = 25
-        Top = 65
-        Width = 400
-        Align = alTop
-        BorderSpacing.Left = 60
-        Caption = 'uuuu'
-        Constraints.MaxWidth = 400
-        TabOrder = 0
-      end
-      object bnTrackingAB: TButton
-        Left = 60
-        Height = 25
-        Top = 96
-        Width = 400
-        Align = alTop
-        BorderSpacing.Left = 60
-        Caption = 'vvvv'
-        Constraints.MaxWidth = 400
-        TabOrder = 1
-      end
-    end
     object panelGifting: TPanel
       Left = 8
       Height = 131
@@ -278,7 +97,7 @@ object FramePrivacyPrompt: TFramePrivacyPrompt
       ClientHeight = 127
       ClientWidth = 876
       ParentBackground = False
-      TabOrder = 4
+      TabOrder = 1
       object labelGiftingHeader: TLabel
         Left = 60
         Height = 30
