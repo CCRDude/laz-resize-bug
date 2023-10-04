@@ -21,10 +21,6 @@ type
    { TForm1 }
 
    TForm1 = class(TForm)
-      nbContent: TNotebook;
-      Page1: TPage;
-      panelMain: TPanel;
-      vstNavigation: TVirtualStringTree;
       procedure FormShow(Sender: TObject);
    private
       f: TFramePrivacyPrompt;
@@ -43,7 +39,7 @@ procedure TForm1.FormShow(Sender: TObject);
 begin
    if not Assigned(f) then begin
       f := TFramePrivacyPrompt.Create(Self);
-      f.Parent := Page1;
+      f.Parent := Self;
       f.Align := alClient;
    end;
 end;
