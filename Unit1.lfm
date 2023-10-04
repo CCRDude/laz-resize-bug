@@ -1,0 +1,73 @@
+inherited Form1: TForm1
+  Left = 478
+  Height = 560
+  Top = 59
+  Width = 818
+  Caption = 'Form1'
+  ClientHeight = 560
+  ClientWidth = 818
+  OnShow = FormShow
+  object panelMain: TPanel[0]
+    Left = 288
+    Height = 560
+    Top = 0
+    Width = 530
+    Align = alClient
+    BevelOuter = bvNone
+    ClientHeight = 560
+    ClientWidth = 530
+    Color = clWindow
+    ParentBackground = False
+    ParentColor = False
+    TabOrder = 0
+    object nbContent: TNotebook
+      Left = 6
+      Height = 548
+      Top = 6
+      Width = 518
+      PageIndex = 0
+      Align = alClient
+      BorderSpacing.Around = 6
+      TabOrder = 0
+      object Page1: TPage
+      end
+    end
+  end
+  object vstNavigation: TVirtualStringTree[1]
+    Left = 0
+    Height = 560
+    Top = 0
+    Width = 288
+    Align = alLeft
+    BorderStyle = bsNone
+    DefaultText = 'Node'
+    DragOperations = []
+    DrawSelectionMode = smBlendedRectangle
+    Header.AutoSizeIndex = 0
+    Header.Columns = <    
+      item
+        Options = [coAllowClick, coDraggable, coEnabled, coParentBidiMode, coParentColor, coResizable, coShowDropMark, coVisible, coSmartResize, coAllowFocus, coEditable]
+        Position = 0
+        Text = 'Profile'
+        Width = 148
+      end    
+      item
+        Alignment = taCenter
+        Options = [coAllowClick, coDraggable, coEnabled, coParentBidiMode, coParentColor, coResizable, coShowDropMark, coVisible, coSmartResize, coAllowFocus, coEditable]
+        Position = 1
+        Text = 'Support'
+        Width = 90
+      end    
+      item
+        Alignment = taRightJustify
+        Position = 2
+        Text = 'Count'
+      end>
+    Header.Options = [hoAutoResize, hoColumnResize, hoDrag, hoShowSortGlyphs]
+    TabOrder = 1
+    TreeOptions.AutoOptions = [toAutoDropExpand, toAutoExpand, toAutoScrollOnExpand, toAutoSort, toAutoSpanColumns, toAutoTristateTracking, toAutoDeleteMovedNodes, toAutoChangeScale]
+    TreeOptions.MiscOptions = [toFullRepaintOnResize, toInitOnSave, toToggleOnDblClick, toWheelPanning]
+    TreeOptions.PaintOptions = [toShowButtons, toShowDropmark, toShowRoot, toShowTreeLines, toThemeAware, toUseBlendedImages, toUseExplorerTheme, toHideTreeLinesIfThemed]
+    TreeOptions.SelectionOptions = [toFullRowSelect]
+  end
+end
